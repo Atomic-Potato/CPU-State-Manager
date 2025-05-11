@@ -11,8 +11,8 @@ Get-Variable | Remove-Variable -Force -ErrorAction SilentlyContinue
 
 # !! IMPORTANT !!
 # you have to set these up in order for this script to function:
-$global:power_plan_name = 'MyPowerSaver' # The Windows Power Plan used to control the temperature
-$global:hardware_monitor_dll_path = "C:\Program Files (x86)\LibreHardwareMonitor\LibreHardwareMonitorLib.dll" # path to the hardware monitoring dll file
+$global:power_plan_name = 'YOUR POWER PLAN NAME HERE' 		  # The Windows Power Plan used to control the temperature
+$global:hardware_monitor_dll_path = "C:\FULL PATH TO THE DLL HERE"  # path to the hardware monitoring dll file
 
 # The rest of the parameters were optimized according to the MSI Delta 15 laptop
 
