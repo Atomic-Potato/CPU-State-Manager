@@ -43,8 +43,19 @@ First, heres the softwares versions im using:
 - Windows 11 (I have Linux, i have not tried this on there cuz idk how, but u should defenitely use [MControlCenter](https://github.com/dmitry-s93/MControlCenter) on there cuz MSI Center don work)
 
 ### Modifing the BIOS
-Before i bought this laptop, i thought the BIOS gonna be so gud cuz ive never used such an expansive bios, but most stuff dont work lmao. Tho here are the settings that i changed that help:
-... ill be a adding them in a sec
+Before i bought this laptop, i thought the BIOS gonna be so gud cuz ive never used such an expansive bios, but most stuff dont work lmao. 
+
+Tho here are the settings that i changed that help (NOTE: In the advanced tab, press `Right Shift + Right Ctrl + Left Alt + F2` to show all the settings):
+- Set `AMD PBS\VDD18 voltage` = -130mv/TI:-137.5mv _(it dont seem to do much but its honest work)_
+![WhatsApp Image 2025-05-11 at 21 39 56_b161ed85](https://github.com/user-attachments/assets/5298c2ce-97a0-4a5c-b0a1-714053a316a4)
+
+- Set `AMD CBS\NBIO Common Options\SMU Common Options\Smartshift Control` Set it to manual and enable da shit, i think its gud
+![WhatsApp Image 2025-05-11 at 21 39 56_87944e2a](https://github.com/user-attachments/assets/0df1543f-263b-4bfa-878f-ccaee8e42ea1)
+
+- Set `AMD CBS\NBIO Common Options\GFX Configuration` iGPU Configuration to UMA_SPECIFIED and the buffer size to 64MB, but auto seemed to yeild the same results so idk
+![WhatsApp Image 2025-05-11 at 21 39 59_f8f4e3ff](https://github.com/user-attachments/assets/105b2004-9368-4e69-8c96-a46078e1a9e5)
+
+_Pro tip: `AMD CBS\NBIO Common Options\SMU Common Options\Fan Control` doesnt do shit_
 
 ### Setting the fan curves
 These are not really perfect, but this is what ive got after messing arround for a bit. Though if you dgaf, you just set all of them to 100% for best performace, plz dont use cooler boost or go above 100%, ur killing ur fans for no reason.
