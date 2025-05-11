@@ -35,8 +35,21 @@ The script should work fine with the default values, you probably just need to c
 aight fam, have fun on da computer o7
 
 ## More help for MSI Delta 15 users
+hopefully this helps y'all if the app did not do it and it still shuts down.
+First, heres the softwares versions im using:
+- AMD Driver 23.5.2 (the OEM Driver) [https://www.msi.com/Laptop/Delta-15-A5EX/support?sub_product=Delta-15-A5EFK#driver](https://www.msi.com/Laptop/Delta-15-A5EX/support?sub_product=Delta-15-A5EFK#driver)
+- MSI Center 2.0.35.0 (i lost the link from where i got it, sowy >_<)
+- Stock BIOS
+- Windows 11 (I have Linux, i have not tried this on there cuz idk how, but u should defenitely use [MControlCenter](https://github.com/dmitry-s93/MControlCenter) on there cuz MSI Center don work)
+
 ### Modifing the BIOS
+Before i bought this laptop, i thought the BIOS gonna be so gud cuz ive never used such an expansive bios, but most stuff dont work lmao. Tho here are the settings that i changed that help:
+... ill be a adding them in a sec
+
 ### Setting the fan curves
+These are not really perfect, but this is what ive got after messing arround for a bit. Though if you dgaf, you just set all of them to 100% for best performace, plz dont use cooler boost or go above 100%, ur killing ur fans for no reason.
+![image](https://github.com/user-attachments/assets/da1692df-e07f-4101-b952-4a083af92e6e)
+
 
 ## Known Issues
 - Sometimes the Power Plan doesnt update, so you have to choose another plan manually and switch back for the state to update
